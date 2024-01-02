@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/78ae6a5280.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" >
+                <ul id="side-menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p>FULL STACK DEVELOPER</p>
+                <h1>HI I'm <span>Saurabh</span><br> From Bhopal</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- ####################  ABOUT START ####################  -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/bg-port.jpg">
+                </div>
+                <div class="about-col-2">
+                    <div class="sub-title">About me</div>
+                    <p>Passionate full stack developer with a love for crafting seamless digital experiences. Proficient in HTML, CSS, JavaScript, React, Node.js, and more. From front-end finesse to back-end wizardry, I turn ideas into robust, user-centric solutions. Let's build something extraordinary together. Ready to code the future! .</p>
+                    <div class="tab-titles ">
+                        <p class="tab-links active-link " onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>FRONT-END DEVELOPMENT</span><br>🎨 Frontend Sorcerer: Crafting Stunning Web Experiences with Precision and Creativity.</li>
+                            <li><span>BACK-END DEVELPMENT</span><br>🛠️ Backend Architect: Engineering Robust Systems, Powering Applications with Efficiency and Scale.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>🎨 5 Months Elevating UX/UI: Designing Intuitive Experiences, Inspiring User Engagement.</li>
+                            <li><span>FRONT-END DEVELOPMENT</span><br> 🚀 2 Years Crafting Engaging Frontend: Turning Designs into Seamless User Experiences.</li>
+                            <li><span>BACK-END DEVELPMENT</span><br>🛠️ 1 Year Backend Mastery: Designing Scalable Systems for Optimal Performance.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"  id="education">
+                        <ul>
+                            <li><span>COLLEGE</span><br> 📚 SIRT College Student: Nurturing Skills for Tech Excellence and Innovation.</li>
+                            <!-- <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li> -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- ####################  ABOUT END ####################  -->
+        <!-- ####################  SERVICE START ####################  -->
+
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">
+                My Services
+            </div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Transforming ideas into visually stunning, user-centric websites, I merge creativity with technical expertise. Proficient in HTML, CSS, and responsive design, I craft digital experiences that captivate and elevate brands. Let's collaborate to bring your vision to life in the vast canvas of the web. 🚀</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-codepen"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>In the realm of pixels and interactions, I design intuitive interfaces that blend aesthetics and functionality. From wireframes to polished designs, I'm passionate about creating delightful user experiences. Let's shape the future of digital interaction together! 🌐💡</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code-compare"></i>
+                    <h2>BECK-END</h2>
+                    <p>In the backend labyrinth, I architect efficient and scalable systems, ensuring optimal performance. From database structures to server-side logic, I craft the backbone that powers applications. Let's engineer the future of digital functionality together! 💻🚀</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            <!-- ####################  SERVICE END ####################  -->
+
+            <!-- ####################  Portfolio START ####################  -->
+    
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="/images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>🌐 Elevate Connections with [Your Social Media Website]: A dynamic platform cultivating meaningful interactions. Experience vibrant profiles, real-time engagement, and a community where ideas flourish. Redefine social networking, sparking connections and shared experiences. 🚀👥</p>
+                        <a href="https://social-media-tlam.onrender.com"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p> 🎵 Tune into [Your Music Website]: Your gateway to a melodic universe. Discover, stream, and share your favorite tunes. Immerse yourself in a symphony of genres and make every note a moment. 🎧🌐</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="/images/work-3.png">
+                    <div class="layer">
+                        <h3>Online shopping App</h3>
+                        <p>
+                            🛍️ Shop Smart with [Your E-Commerce Website]: Explore a curated collection, seamless transactions, and personalized shopping. Elevate your online retail experience with us — where convenience meets style for a delightful shopping journey. 🌐💳</p>
+                        <a href="https://wild-gold-bear-slip.cyclic.app/"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/saurrabh07" class="btn" >See More</a>
+        </div>
+    </div>
+
+    <!-- ####################  Portfolio end ####################  -->
+    
+    <!-- ####################  Contact START ####################  -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-share"></i>saurabh7611175755@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>757575775</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100008330670994"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/saurabh_krishna_7/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/saurabh-gupta-3a18b9227/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <a href="/images/Final-Resume-s.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <textarea name="Message"rows="6" placeholder="Your Message" ></textarea>
+                        <button type="submit" class="btn btn2" onclick="msgsend()">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 100rabh Made with <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname)
+        {
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+
+
+const msg = document.getElementById("msg")
+
+        function msgsend(){
+            msg.innerHTML = "Message Sent Successfully";
+            setTimeout(() => {
+                msg.innerHTML=""
+            }, 5000);
+
+            form.reset();
+        }
+            
+        var sidemenu = document.getElementById("side-menu");
+        function openmenu()
+        {
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu()
+        {
+            sidemenu.style.right = "-200px";
+
+        }
+    </script>
+</body>
+</html>
